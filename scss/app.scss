@@ -1,0 +1,15 @@
+$defaultFont: 300 18px Roboto, sans-serif;
+$defaultMargin: 0;
+
+body {
+	margin: $defaultMargin;
+	overflow: hidden;
+}
+
+#header {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	font: $defaultFont;
+	color: #fff;
+}
